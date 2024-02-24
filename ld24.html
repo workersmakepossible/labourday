@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<!-- supa cool coder made this :D-->
+<!-- revolutionary love 4eva-->
+
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	
+    <!--
+    <style media="all">
+    
+    .mobile-display{display:none}
+    .desktop-display{display:block}
+    @media (max-width:1206px){
+        .desktop-display {display:none}
+        .mobile-display {display:block}
+    } 
+
+    </style>
+    -->
+
+	<title>Workers Make Possible!</title>
+</head>
+  
+<body>
+
+<div class="desktop-display">
+    <style>
+            .titlebanner{
+                background-color: #FDD24F;
+                height: 60px; 
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                z-index: 999;
+            }
+
+            .title{
+                position: fixed;
+                left: 50%;
+                transform: translate(-50%, 0);
+                font-weight: bold;
+                z-index: 999;
+                color: #C9112B; 
+            }
+
+            .h3{
+                color: #C9112B;
+            }
+
+            .moveleft{
+                margin-left: 130px; 
+            }
+
+            .logo{
+                position: fixed;
+                z-index: 1000;
+                height: 130px;
+                width: 130px;
+                background-color: transparent;
+                top: -5px;
+                
+            }
+
+            .deskybutton{
+                width: 100%; 
+            }
+
+            .navbanner{
+                background-color: white;
+                height: 50px; 
+                position: fixed;
+                top: 60px; 
+                z-index: 999;
+            }
+
+            .start{
+                position: relative;
+                top: 130px; 
+            }
+
+            .navcol{
+                position: relative;
+                left: 150px; 
+                margin-right:30px;
+                top: 5px;
+            }
+
+            .navbutton{
+                background-color: transparent;
+                border-radius: 20px;
+                color: #37375E;
+            }
+
+            .navbutton:hover{
+                background-color: #FDD24F;
+                font-weight: bold;
+            }
+
+            .recbox{
+                background-color: #FDD24F;
+                border-radius: 28px;
+                border-width: 3px;
+                border-style: solid;
+                border-color: #C9112B;
+            }
+
+            .iframeholder{
+                position: relative;
+                padding-bottom: 56.25%;
+                height:0;
+            }
+
+            .responsive-iframe{
+                position:absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 56.25%;
+                z-index: 900;
+            }
+
+            a{
+                color:#37375E;
+            }
+
+            .articledescbox{
+                overflow: hidden;
+            }
+
+            .articledesc{
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 5; /* start showing ellipsis when 3rd line is reached */
+                white-space: pre-wrap; /* let the text wrap preserving spaces */
+            }
+
+            .abouttitle{
+                position:relative;
+                padding-top: 55%;
+                font-weight: 600;
+                color: #C9112B;
+            }
+
+            .thumbnailpic{
+                width: 100%;
+                margin-top:10px;
+            }
+
+            .currentpage{
+                background-color: #FDD24F;
+                font-weight: bold; 
+            }
+
+            #wildscroll{
+                scroll-margin-top: 100px;
+            }
+
+            #progscroll{
+                scroll-margin-top: 100px;
+            }
+            
+            #infoscroll{
+                scroll-margin-top: 100px;
+            }
+
+            .boothlink{
+                font-size: 30px ;
+                font-weight: bold;
+                color: #C9112B;
+            }
+
+            .carousel-control-prev-icon{
+              background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+              top: 50%;
+            }
+        
+            .carousel-control-next-icon{
+              background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+            }
+        
+            .carousel-control-prev{
+              background-color: black;
+              height: 20%;
+              top: 50%;
+            }
+        
+            .carousel-control-next{
+              background-color: black;
+              height: 20%;
+              top: 50%;
+            }
+            
+    </style>
+        
+        
+    <!--NAVbanner-->
+    <div class="titlebanner container-fluid"></div>
+    <div class="title container h1"><span class="moveleft">Workers Make Possible</span></div>  
+    <div class="container h1">
+        <button class="logo btn btn-lg btn-block">
+            <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/wmp_logo.png?raw=true" 
+            class="deskybutton img-responsive">
+        </button>
+    </div>
+
+    <div class="navbanner container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="navcol"><button class="btn navbutton" href="index.html">About</button></div>
+                <div class="navcol"><button class="btn navbutton currentpage">Labour Day '24</button></div>
+                <div class="navcol"><button class="btn navbutton">Campaigns</button></div>
+                <div class="navcol"><button class="btn navbutton">Articles</button></div>
+                <div class="navcol"><button class="btn navbutton">Posts</button></div>
+                <div class="navcol"><button class="btn navbutton">Resources</button></div>
+                <div class="navcol"><button class="btn navbutton">Events</button></div>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    <div class="start">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-7 mt-3">
+                    <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/1_2_picture.png?raw=true" 
+                    style="width:100%; border-style:solid;">
+                    
+                    <div class="row h2 pl-3 pt-4" style ="color:#C9112B; font-weight: bolder;">Labour Day 2024: Theme Here!</div>
+                    
+                    <div class="row pl-3 h4">1 May 2024, 3.00pm - 7.00pm</div>
+
+                    <a href="#">
+                        <u class="h5" style="color:#37375E"><i class="bi bi-plus-circle-fill" style="color:#C9112B"></i> Add to calendar</u>
+                    </a>
+
+                    <div class="float-right">
+                        <button class="btn btn-lg"
+                        style="font-weight:bold; background-color:#FDD24F; border-radius: 30px; border: 3px solid #C9112B; color: #C9112B">
+                            REGISTER NOW!
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-5 no-gutters">
+                    <div class="h3 ml-3" style ="color:#C9112B; font-weight: bolder;">Quick Links:</div>
+                    <div class="row g-0 no-gutters">
+                        <div class="col-6 quicklink"> 
+                            <button href="#" 
+                            onClick="document.getElementById('wildscroll').scrollIntoView({behavior: 'smooth'});"
+                            class="btn btn-block m-0" style="background-color:transparent; width: 100%">
+                                <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/1.png?raw=true" 
+                                style="width:100%; margin-left:12px">
+                            </button>
+                            <button href="#" 
+                            onClick="document.getElementById('progscroll').scrollIntoView({behavior: 'smooth'});"
+                            class="btn btn-block m-0" style="background-color:transparent; width: 100%">
+                                <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/3.png?raw=true" 
+                                style="width:100%; margin-left:12px">
+                            </button>
+                            <button href="#" 
+                            onClick="document.getElementById('infoscroll').scrollIntoView({behavior: 'smooth'});"
+                            class="btn btn-block m-0" style="background-color:transparent; width: 100%">
+                                <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/5.png?raw=true" 
+                                style="width:100%; margin-left:12px"
+                                >
+                            </button>
+                        </div>
+                        <div class="col-6 quicklink"> 
+                            <button href="#" 
+                            onClick="document.getElementById('wildscroll').scrollIntoView({behavior: 'smooth'});"
+                            class="btn btn-block m-0" style="background-color:transparent; width: 100%">
+                                <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/2.png?raw=true" 
+                                style="width:100%; margin-right:12px">
+                            </button>
+                            <button href="#" 
+                            onClick="document.getElementById('wildscroll').scrollIntoView({behavior: 'smooth'});"
+                            class="btn btn-block m-0" style="background-color:transparent; width: 100%">
+                                <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/4.png?raw=true" 
+                                style="width:100%; margin-right:12px">
+                            </button>
+                            <button href="#" 
+                            onClick="document.getElementById('wildscroll').scrollIntoView({behavior: 'smooth'});"
+                            class="btn btn-block m-0" style="background-color:transparent; width: 100%">
+                                <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/6.png?raw=true" 
+                                style="width:100%; margin-right:12px">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!--WHAT IS LABOUR DAY-->
+    <div class="start">
+        <div style="z-index:10000; margin-top: 100px;" class="container">
+            <div class="row pt-3" id="wildscroll">
+                <span class="h2" style ="color:#C9112B; font-weight: bolder;">
+                    What is Labour Day?
+                </span>
+            </div>
+            <div>
+                <div class="pt-2">
+
+                    <img class="img-responsive" src="https://github.com/workersmakepossible/mainpage/blob/main/assets/1_2_picture.png?raw=true" style="float:right; width:40%; border: 2px solid black; margin-left:10px; margin-bottom: 10px">
+
+                    <p>
+                        Lorries are goods vehicles not designed to carry passengers as they do not have appropriate seating and safety belts. Ferrying people on the back of lorries is unsafe, which is why the Road Traffic Act (RTA) generally does not allow for passengers to be transported on the back of goods vehicles unless it is carrying someone injured in an emergency situation. However, the Road Traffic Act makes an exception for transporting workers employed by the vehicle"s owner.
+                    </p>
+                        
+                    <p>
+                        Many of the rights and freedoms we enjoy as workers in Singapore today are hard-won victories of the labour movement. The eight hour work week, the weekend, paid parental leave, and even securing Labour Day as a public holiday, are the result of decades of struggle and sacrifice by workers who stood together, knew their power, and used it to improve the lives of their fellow people.
+                    </p>
+                    
+                    <img class="img-responsive" src="https://github.com/workersmakepossible/mainpage/blob/main/assets/1_2_picture.png?raw=true" style="float:left; width:40%; border: 2px solid black; margin-right:10px; margin-bottom: 10px">
+
+                    <p>
+                        In a letter to kopitiam workers from 1978, the Committee for the Commemoration of Labours Day by All Singapore Coffee Shop Employees urged:
+                    </p>
+
+                    <p>
+                        “We cannot sit back and wait. To live and to improve our livelihood, we must rely on our own unity. […] Therefore, on the approach of May 1st, […] we must stop work one day and strive for the complete materialisation of [better conditions]. Strive for improvement of our livelihood. […] Commemorate May 1st Labours Day. Stop work for one day.”
+                    </p>
+
+                    <p>
+                        This 1st May, Labour Day, is for all of us who work hard to keep this city running to come together, united around our shared aspirations for a society where everyone has decent, safe working conditions, living wages, and do not have to hustle so hard to meet our basic needs for housing, healthcare, food and education. A society that honours the value of our bus drivers, construction workers, healthcare workers, cleaners, domestic workers, retail workers, F&B workers, delivery riders, tech workers, social workers, caregivers, teachers, hawkers, students, PMETs and all others whose labour we depend on to build our communities and our economy. 
+                    </p>
+
+                    <img class="img-responsive" src="https://github.com/workersmakepossible/mainpage/blob/main/assets/1_2_picture.png?raw=true" style="float:right; width:40%; border: 2px solid black; margin-left:10px; margin-bottom: 10px">
+                        
+                    <p>
+                        A society based on justice and equality is one where workers - whether blue collar or white collar - can truly reap the fruits of their labour, where we can lead fulfilling lives with adequate time for rest, and to pursue our passions and interests; where we have the opportunity to enjoy family and community life; and the right to retire without fear of being driven to poverty. It is also, crucially, one where we have strong social safety nets to look after our most vulnerable people.
+                    </p>
+                        
+                    <p>
+                        So this labour day, let all of us who share these aspirations gather at Hong Lim Park to honour the struggle of workers who came before us, confront the hardships that the working class faces in Singapore today, and commit to building the brighter, freer future we want.
+                    </p>
+                    
+                    <img class="img-responsive" src="https://github.com/workersmakepossible/mainpage/blob/main/assets/1_2_picture.png?raw=true" style="float:left; width:40%; border: 2px solid black; margin-right:10px; margin-bottom: 10px">
+                        
+                    <p>
+                        Workers across Singapore create all the immense value we see in our country. Yet, despite the fact that we in Singapore work some of the longest hours in the world, thousands of workers can barely afford to put hot meals on the table, secure housing or see a doctor when they or their loved ones are sick. Many more are afraid to take leave from work when they are unwell, to speak up about abuse and discrimination, or ask for fairer wages and working conditions. Hardly anyone feels able to retire in Singapore, and widening inequality turns workers against each other. When we, the workers of Singapore, are divided, employers and the ruling elite benefit because they can continue to exploit us. But when workers come together in solidarity, we can win the world we dream of, where everyone is taken care of.
+                    </p>
+                        
+                    <p>
+                        Join us at Hong Lim Park on 1 May from 3-7pm for a powerful lineup of live bands and comedians, cheer along to rousing speeches from working class heroes, sing songs of liberation, and stand shoulder-to-shoulder with fellow workers as we demand a better, fairer Singapore. Are you in?
+                    </p>
+                        
+                    <p>
+                        This Labour Day, let us fill Hong Lim Park with our bodies, our dreams, our demands, our solidarity. Come, let us stand up for each other, and be counted. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--PROGRAMME-->
+    <div class="start">
+        <div style="z-index:10000; margin-top: 100px;" class="container">
+            <div class="row pt-3" id="progscroll">
+                <span class="h2" style ="color:#C9112B; font-weight: bolder;">
+                    Programme Flow
+                </span>
+            </div>
+            <div class="row">
+                <div class="col-2 h2" style="text-align: right; color:#37375E">
+                    <b>3.00pm</b>
+                </div>
+                <div class="col-10 h2" style="color:#37375E"><b>Community Booths Open!</b></div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-2 h3" style="text-align: right;">
+                    
+                </div>
+                <div class="col-10" style="font-size: 23px;">
+                    Visit the community booths to engage with civil society groups, workers and home-based businesses! <br><br>
+                    <span style="font-size: 30px"><b>Featured booths:</b></span>
+                    <ul class="mt-3">
+                        <a href="" class="boothlink">Singapore Climate Rally</a>
+                        <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/1_2_picture.png?raw=true" style="width:80%; border-style:solid; margin-top:20px;margin-bottom:20px;">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </ul>
+                    <ul class="mt-3">
+                        <a href="" class="boothlink">Transformative Justice Collective</a>
+                        <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/1_2_picture.png?raw=true" style="width:80%; border-style:solid; margin-top:20px;margin-bottom:20px;">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </ul>
+                    
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2 h2" style="text-align: right; color:#37375E">
+                    <b>4.00pm</b>
+                </div>
+                <div class="col-10 h2" style="color:#37375E"><b>Live Speeches and Performances</b></div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-2 h3" style="text-align: right;">
+                    
+                </div>
+                <div class="col-10" style="font-size: 23px;">
+                    Electrifying speeches by workers and powerful performances by local musicians! <br><br>
+                    <span style="font-size: 30px"><b>Featured speakers and performers:</b></span>
+                    
+                    <div class="col-9">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/stagecarousell/1.png?raw=true" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/stagecarousell/2.png?raw=true" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://github.com/workersmakepossible/mainpage/blob/main/assets/stagecarousell/3.png?raw=true" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    
+                <!---->    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 h2" style="text-align: right; color:#37375E">
+                    <b>5.00pm</b>
+                </div>
+                <div class="col-10 h2" style="color:#37375E"><b>End of Programme</b></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="start">
+        <div style="z-index:10000; margin-top: 100px;" class="container">
+            <div class="row pt-3" id="infoscroll">
+                <span class="h2" style ="color:#C9112B; font-weight: bolder;">
+                    The People's 15 Demands
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+            </script> 
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js">
+            </script> 
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js">
+            </script>
+
+</div>
+    
+
+
+
+</body>
+</html>
