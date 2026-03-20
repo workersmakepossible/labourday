@@ -320,26 +320,18 @@ layout: default
 ════════════════════════════════════════════════════════════ -->
 <div class="mobile-display">
 
-  <!-- MOBILE NAV -->
-  <div class="titlebanner-mb container-fluid"></div>
-  <div class="title-mb container">
-    <span>{{ site.title }}</span>
-  </div>
-  <div class="container">
-    <button class="logo-mb btn btn-lg btn-block">
-      <img src="{{ site.logo_url }}" class="deskybutton img-responsive">
-    </button>
-  </div>
-
-  <div class="navbanner-mb container-fluid">
-    <div class="container">
-      <div class="dropdown">
-        <button class="btn navbutton-mb dropdown-toggle" type="button" id="mobileNavDropdown" data-toggle="dropdown">
-          Menu
+  <!-- MOBILE NAV: single sticky bar with logo + title + hamburger -->
+  <div class="mobile-header sticky-top">
+    <div class="mobile-header-inner">
+      <img src="{{ site.logo_url }}" class="mobile-logo" alt="WMP logo">
+      <span class="mobile-title">{{ site.title }}</span>
+      <div class="dropdown ml-auto">
+        <button class="btn mobile-menu-btn dropdown-toggle" type="button" id="mobileNavDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="bi bi-list"></i>
         </button>
-        <div class="dropdown-menu" aria-labelledby="mobileNavDropdown">
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="mobileNavDropdown">
           {% for link in site.nav_links %}
-          <a class="dropdown-item {% if link.active %}font-weight-bold{% endif %}" href="{{ link.url }}">{{ link.label }}</a>
+          <a class="dropdown-item {% if link.active %}active{% endif %}" href="{{ link.url }}">{{ link.label }}</a>
           {% endfor %}
         </div>
       </div>
