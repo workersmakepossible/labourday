@@ -250,3 +250,8 @@ a:hover { color: #37375E; text-decoration: none; }
     scroll-margin-top: 20px;
   }
 }
+
+/* ─── SPEAKERS CAROUSEL SPACING ──────────────────────────── */
+#carouselSpeakers {
+  margin-bottom: 60px;
+}
