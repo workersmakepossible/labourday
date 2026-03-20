@@ -1,8 +1,7 @@
 title: Workers Make Possible
 description: Labour Day Rally 2024
-baseurl: ""
-url: "https://workersmakepossible.com"
-
+baseurl: "/labourday"
+url: "https://workersmakepossible.github.io"
 # ─── BRANDING ───────────────────────────────────────────────
 colors:
   primary: "#C9112B"       # red
