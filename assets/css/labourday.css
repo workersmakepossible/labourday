@@ -156,12 +156,68 @@ a:hover { color: #37375E; text-decoration: none; }
 .navbanner-mb {
   background-color: white;
   padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 8px;
 }
 .navbutton-mb {
   background-color: transparent;
   border-radius: 20px;
   color: #37375E;
+  border: 1px solid #37375E;
 }
 .start-mb {
   padding-top: 20px;
+}
+
+/* ─── MOBILE FIXES ────────────────────────────────────────── */
+@media (max-width: 994px) {
+
+  /* Prevent any desktop fixed-position elements leaking through */
+  .logo, .title, .navbanner, .titlebanner {
+    position: static !important;
+    transform: none !important;
+  }
+
+  /* Ensure full-width images don't overflow on small screens */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Float images used in "Why Come" section stack vertically on mobile */
+  img[style*="float:right"],
+  img[style*="float: right"],
+  img[style*="float:left"],
+  img[style*="float: left"] {
+    float: none !important;
+    width: 100% !important;
+    margin: 10px 0 !important;
+  }
+
+  /* Scroll-to-top button: smaller and less intrusive on mobile */
+  .topscroll {
+    top: auto;
+    bottom: 20px;
+    right: 16px;
+    font-size: 12px;
+    padding: 6px 10px;
+    opacity: 60%;
+  }
+
+  /* Tighten up section spacing */
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* Booth link font size more readable on small screens */
+  .boothlink {
+    font-size: 18px;
+  }
+
+  /* Scroll margin so anchor links aren't hidden under anything */
+  #wildscroll, #progscroll, #dmndscroll, #infoscroll,
+  #boothscroll, #pledgescroll, #archscroll {
+    scroll-margin-top: 20px;
+  }
 }
