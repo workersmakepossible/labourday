@@ -139,52 +139,73 @@ a:hover { color: #37375E; text-decoration: none; }
 .topbutton { font-size: 20px; }
 
 /* ─── MOBILE HEADER ───────────────────────────────────────── */
-.titlebanner-mb {
+/* Single sticky bar: logo + title + hamburger menu in one row */
+.mobile-header {
   background-color: #FDD24F;
-  height: 60px;
+  border-bottom: 3px solid #C9112B;
+  z-index: 1000;
 }
-.title-mb {
-  font-size: 1.5rem;
+.mobile-header-inner {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+}
+.mobile-logo {
+  height: 44px;
+  width: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.mobile-title {
+  font-size: 1.1rem;
   font-weight: bold;
   color: #C9112B;
-  padding: 10px 0;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.logo-mb {
-  height: 80px;
-  background-color: transparent;
+.mobile-menu-btn {
+  background-color: #C9112B;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  padding: 4px 10px;
+  line-height: 1;
+  flex-shrink: 0;
 }
-.navbanner-mb {
-  background-color: white;
-  padding: 8px 0;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 8px;
+.mobile-menu-btn:hover,
+.mobile-menu-btn:focus {
+  background-color: #a00e23;
+  color: white;
 }
-.navbutton-mb {
-  background-color: transparent;
-  border-radius: 20px;
-  color: #37375E;
-  border: 1px solid #37375E;
+.dropdown-menu .dropdown-item.active {
+  font-weight: bold;
+  color: #C9112B;
+  background-color: #fff8e1;
 }
 .start-mb {
-  padding-top: 20px;
+  padding-top: 16px;
 }
 
 /* ─── MOBILE FIXES ────────────────────────────────────────── */
 @media (max-width: 994px) {
 
-  /* Prevent any desktop fixed-position elements leaking through */
+  /* Prevent desktop fixed-position elements leaking into mobile */
   .logo, .title, .navbanner, .titlebanner {
     position: static !important;
     transform: none !important;
   }
 
-  /* Ensure full-width images don't overflow on small screens */
+  /* All images stay within their container */
   img {
     max-width: 100%;
     height: auto;
   }
 
-  /* Float images used in "Why Come" section stack vertically on mobile */
+  /* Floated "Why Come" images stack vertically on small screens */
   img[style*="float:right"],
   img[style*="float: right"],
   img[style*="float:left"],
@@ -194,7 +215,7 @@ a:hover { color: #37375E; text-decoration: none; }
     margin: 10px 0 !important;
   }
 
-  /* Scroll-to-top button: smaller and less intrusive on mobile */
+  /* Scroll-to-top: bottom-right corner on mobile */
   .topscroll {
     top: auto;
     bottom: 20px;
@@ -204,18 +225,18 @@ a:hover { color: #37375E; text-decoration: none; }
     opacity: 60%;
   }
 
-  /* Tighten up section spacing */
+  /* Tighter side padding */
   .container {
     padding-left: 16px;
     padding-right: 16px;
   }
 
-  /* Booth link font size more readable on small screens */
+  /* Booth link slightly smaller */
   .boothlink {
     font-size: 18px;
   }
 
-  /* Scroll margin so anchor links aren't hidden under anything */
+  /* Scroll offsets — no tall fixed header on mobile */
   #wildscroll, #progscroll, #dmndscroll, #infoscroll,
   #boothscroll, #pledgescroll, #archscroll {
     scroll-margin-top: 20px;
