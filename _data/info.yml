@@ -1,0 +1,67 @@
+# _data/info.yml
+# Edit all attendee information here.
+
+# ─── CHANT / BOOKLET ──────────────────────────────────────────
+booklet:
+  heading: "Chant and Programme Booklet"
+  subheading: "Download the programme booklet and chant sheet here!"
+  status: "The chant sheet has not been released. Come back later!"
+  # Uncomment and fill in when files are ready:
+  # booklet_url: "/assets/programme_booklet.pdf"
+  # chant_url: "/assets/chant_sheet.pdf"
+
+# ─── GETTING THERE ────────────────────────────────────────────
+getting_there:
+  heading: "How to get there:"
+  bus: "147, 197, 51, 61, 80 to Busstop 05059"
+  mrt:
+    - "Clarke Quay MRT (Exit A)"
+    - "Chinatown (Walk from Chinatown Point)"
+
+# ─── RULES ────────────────────────────────────────────────────
+rules:
+  heading: "Rules at Speakers' Corner:"
+  text: "Under the Public Order Act, only <u>Singaporean Citizens and Permanent Residents</u> are allowed to participate in public assemblies at Speakers' Corner at Hong Lim Park"
+
+# ─── WEAR RED ─────────────────────────────────────────────────
+wear_red:
+  heading: "WEAR RED!"
+  text: "Wear your favourite, cool, comfy RED clothes to Labour Day!"
+  preorder_note: "You can also pre-order our Labour Day shirt and collect it from the Workers Make Possible booth on May 1st. <b>The preorder form is not ready yet, please check back soon.</b>"
+  # preorder_url: ""  # Add URL when form is ready
+
+# ─── ACCESSIBILITY ────────────────────────────────────────────
+accessibility:
+  heading: "Accessibility"
+  items:
+    - "All ushers will be wearing a pin with the words 'LD 24 USHER'. Please approach any usher if you require assistance."
+    - "Sign language interpretation will be provided by <a href=\"https://equaldreams.sg/\"><u>Equal Dreams SG</u></a>. If you need to stand closer to the stage to be able to see the sign language interpreter, please approach an usher for assistance"
+    - "We recommend that wheelchair users entering via the car park next to Kreta Ayer Police Post use the paved areas to access the booths, which are double-facing towards both the pavement and the park."
+    - "A childcare space is available with toys and activities, as well as 2 volunteers who are assigned to childminding for the duration of the rally. The childcare booth is easily visible from the booths and the audience space."
+    - "Reserved seating will be provided for the following groups of people: Blind, low vision, deaf, hard of hearing, elderly & physically disabled people."
+    - "Everyone is highly encouraged to mask up for our collective safety. Many immunocompromised people need our collective support to access this event without risking their health."
+
+# ─── WHAT TO BRING ────────────────────────────────────────────
+what_to_bring:
+  heading: "We are a rain or shine event!"
+  items:
+    - "An umbrella/poncho in case of wet weather,"
+    - "Caps, fans, hats,"
+    - "Lots of water to hydrate!"
+    - "Mask up if you/those you attend with are immunocompromised,"
+    - "Picnic mat, snacks, drinks... make a day of it!"
+
+# ─── SIGNS ────────────────────────────────────────────────────
+signs:
+  heading: "Make and bring your own signs!"
+  intro: "There will be an onsite booth for participants to make their own signs, but make sure to also bring:"
+  items:
+    - "Corrugated board, signboard, cardboard"
+    - "Markers, color pens, tape"
+
+# ─── EXTRA NOTES ──────────────────────────────────────────────
+extra_notes:
+  heading: "Extra Notes:"
+  items:
+    - "There will be photos, videos, and livestreaming of the event. If you would like to be discreet about your attendance, consider wearing a mask, hat, sunglasses, scarf or other creative attire"
+    - "There will be a First Aid Booth. If you need medical attention, let our volunteers know and they will guide you there."

@@ -1,0 +1,167 @@
+/* labourday.css — extracted from labourday.html inline styles */
+
+/* ─── RESPONSIVE VISIBILITY ────────────────────────────────── */
+.mobile-display  { display: none; }
+.desktop-display { display: block; }
+@media (max-width: 994px) {
+  .desktop-display { display: none; }
+  .mobile-display  { display: block; }
+}
+
+/* ─── DESKTOP HEADER ──────────────────────────────────────── */
+.titlebanner {
+  background-color: #FDD24F;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 900;
+}
+.title {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-weight: bold;
+  z-index: 900;
+  color: #C9112B;
+}
+.moveleft { margin-left: 130px; }
+.logo {
+  position: fixed;
+  z-index: 901;
+  height: 130px;
+  width: 130px;
+  background-color: transparent;
+  top: -5px;
+}
+.deskybutton { width: 100%; }
+
+/* ─── DESKTOP NAV ─────────────────────────────────────────── */
+.navbanner {
+  background-color: white;
+  height: 50px;
+  position: fixed;
+  top: 60px;
+  z-index: 900;
+}
+.navcol {
+  position: relative;
+  left: 150px;
+  margin-right: 30px;
+  top: 5px;
+}
+.navbutton {
+  background-color: transparent;
+  border-radius: 20px;
+  color: #37375E;
+}
+.navbutton:hover {
+  background-color: #FDD24F;
+  font-weight: bold;
+}
+.currentpage {
+  background-color: #FDD24F;
+  font-weight: bold;
+}
+
+/* ─── DESKTOP CONTENT ─────────────────────────────────────── */
+.start { position: relative; top: 130px; }
+.h3 { color: #C9112B; }
+a { color: #37375E; }
+a:hover { color: #37375E; text-decoration: none; }
+
+.recbox {
+  background-color: #FDD24F;
+  border-radius: 28px;
+  border: 3px solid #C9112B;
+}
+
+.articledesc {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  white-space: pre-wrap;
+}
+.thumbnailpic {
+  width: 100%;
+  margin-top: 10px;
+}
+.abouttitle {
+  position: relative;
+  padding-top: 55%;
+  font-weight: 600;
+  color: #C9112B;
+}
+
+/* ─── SCROLL OFFSETS ──────────────────────────────────────── */
+#wildscroll, #progscroll, #dmndscroll, #infoscroll { scroll-margin-top: 100px; }
+#boothscroll { scroll-margin-top: 50px; }
+
+/* ─── BOOTH LINKS ─────────────────────────────────────────── */
+.boothlink {
+  font-size: 20px;
+  font-weight: bold;
+  color: #C9112B;
+}
+
+/* ─── CAROUSEL CONTROLS ───────────────────────────────────── */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  top: 50%;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: black;
+  height: 20%;
+  top: 50%;
+}
+
+/* ─── DEMAND TITLE ────────────────────────────────────────── */
+.demandtitle { font-size: 22px; color: #C9112B; }
+
+/* ─── SCROLL TO TOP BUTTON ────────────────────────────────── */
+.topscroll {
+  position: fixed;
+  z-index: 999;
+  width: max-content;
+  background-color: #37375E;
+  color: white;
+  top: 120px;
+  right: 40px;
+  opacity: 20%;
+}
+.topscroll:hover { opacity: 100%; }
+.topbutton { font-size: 20px; }
+
+/* ─── MOBILE HEADER ───────────────────────────────────────── */
+.titlebanner-mb {
+  background-color: #FDD24F;
+  height: 60px;
+}
+.title-mb {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #C9112B;
+  padding: 10px 0;
+}
+.logo-mb {
+  height: 80px;
+  background-color: transparent;
+}
+.navbanner-mb {
+  background-color: white;
+  padding: 8px 0;
+}
+.navbutton-mb {
+  background-color: transparent;
+  border-radius: 20px;
+  color: #37375E;
+}
+.start-mb {
+  padding-top: 20px;
+}

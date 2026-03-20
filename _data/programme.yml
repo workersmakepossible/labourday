@@ -1,0 +1,90 @@
+# _data/programme.yml
+# Edit the schedule, booths, and speakers here.
+
+schedule:
+  - time: "3.00pm"
+    label: "Community Booths Open!"
+    description: "Visit the community booths to engage with these civil society groups!"
+  - time: "5.00pm"
+    label: "Live Speeches and Performances"
+    description: "Electrifying speeches by workers and powerful performances by local musicians!"
+
+booths:
+  - name: "Financial Aid Friends"
+    url: ""
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/FNAF_BoothFeature.png?raw=true"
+    description:
+      - "NTU Financial Aid Friends (FNAF) is a group of students campaigning to improve NTU's financial aid system and broaden access to everyone's right to public education. They recently won their key demands for better financial aid after a 1-year long campaign."
+      - "FNAF believes that student movements are inseparable from the labour movement. In Singapore's history, students have been a vital part of many struggles which fought for our independence and rights. As future workers, students are a key force for change in labour movements around the world."
+
+  - name: "Function 8"
+    url: ""
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/F8_BoothFeature.png?raw=true"
+    description:
+      - "Function 8 is an initiative by a group of citizens who believe that there is a need to facilitate the sharing of social, political and economic experiences through reflection and civic discussion."
+      - "Many members of F8 underwent detention without trial under the Internal Security Act as part of the burgeoning labour and social movements of the '70s and '80s. They have fought for and believe deeply in the importance of an independent, grassroots labour movement in Singapore."
+
+  - name: "Sick and Tired"
+    url: ""
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/SNT_BoothFeature.png?raw=true"
+    description:
+      - "Sick of how patients are treated. Tired of the working conditions."
+      - "Sick and Tired is a collective of healthcare workers who believe that the healthcare system can and should be one that treats both patients and workers with dignity."
+
+  - name: "Singapore Bus Drivers"
+    url: ""
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/SGBD_BoothFeature.png?raw=true"
+    description:
+      - "SG Bus Drivers (SGBD) is a community of bus drivers in Singapore who help one another regardless of race, gender, or nationality. They are most well-known for taking SBS Transit to court over rest days and overtime issues. Although SBS terminated all 13 drivers who were involved in the lawsuit, the contracts for all remaining SBS bus drivers improved significantly. It is estimated that every bus driver now earns between $300 to $500 more per month. SGBD also provides case work assistance for bus drivers and low-wage workers from various sectors. They have helped at least 20 workers win salary and work injury related claims."
+
+  - name: "Singapore Riders"
+    url: ""
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/SGR__BoothFeature.png?raw=true"
+    description:
+      - "SG Riders is a growing network of food delivery riders advocating for their rights to a safe working environment. For Riders, by Riders."
+
+  - name: "Singapore Climate Rally"
+    url: ""
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/SGCR_BoothFeature.png?raw=true"
+    description:
+      - "SG Climate Rally (SGCR) is a youth-led climate justice collective which stands for collective action, systemic change, and justice, with an understanding that individual action alone is insufficient to tackle our climate emergency."
+      - "They seek to uplift communities, build people power, and work with those in power to achieve fair, ambitious, and socially just climate policy. Workers bear the brunt of the effects of climate change, hence we advocate for the rights of the working class to spearhead the way to a just transition."
+
+  - name: "Transformative Justice Collective"
+    url: ""
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/TJC_BoothFeature.png?raw=true"
+    description:
+      - "Transformative Justice Collective was founded on the principles of transformative justice. It is committed to seeking the reform of Singapore's criminal punishment system, starting with the abolition of the death penalty."
+      - "Transformative justice is crucial to the labour movement because our carceral punishment system is weaponised against the poor and the working class to maintain deep inequalities within our society."
+
+  - name: "We Support Us"
+    url: ""
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/WSU_BoothFeature.png?raw=true"
+    description:
+      - "We Support Us is a community network formed by people living in Singapore's public and private rental flats, who aspire to achieve their goals and dreams together. The network provides a platform for mutual support, protecting one another, sharing experiences and gaining inspiration. It also advocates for better community support and social safety nets for all. Until we have strong and stable safety nets, we have to form our own safety net through supporting one another."
+
+speakers:
+  - name: "Nurul Afiqah"
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/stagecarousell/AFIQAH.png?raw=true"
+    bio:
+      - "With 10 years of experience working as a nurse, Nurul has seen the good, the bad, and the ugly in the healthcare system."
+      - "In her career, she has worked at a public hospital and various welfare homes. It was during the pandemic that she made the switch to be a locum nurse."
+      - "She is also a member of Sick & Tired, a network of healthcare workers who believe in a healthcare system that treats both workers and patients with dignity."
+
+  - name: "Andy"
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/stagecarousell/ANDY.png?raw=true"
+    bio:
+      - "Andy is a 41 year old father of two children and an IT support engineer who loves his job. However, with the ever-increasing cost of living, Andy feels the squeeze trying to keep his family afloat. He does not qualify for many public subsidies and grants due to his income."
+      - "During Covid-19, he started doing food delivery for Foodpanda, later joining Deliveroo. Andy is an active member of SG Riders, a network of food delivery riders advocating for safer work conditions. His article 'The Headache of Parking in Condos. 3 Main issues & 1 Simple Solution' went viral online, gaining thousands of riders' and customers' support."
+
+  - name: "Kyle"
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/stagecarousell/KYLE.png?raw=true"
+    bio:
+      - "Kyle is a 36 year old bartender who enjoys creating cocktails and hosting guests whenever he is on shift. However, having worked in the industry for 14 years, witnessing how so many of his colleagues were mistreated and exploited, Kyle soon became jaded."
+      - "Recently, his workplace abruptly closed down without giving him and his colleagues any notice or pay. Kyle and his colleagues are in the process of claiming what they are all owed by the company. In his free time, Kyle makes music and writes about issues concerning the working class."
+
+  - name: "Maya Raisha"
+    image: "https://github.com/workersmakepossible/labourday/blob/main/assets/stagecarousell/MAYA.png?raw=true"
+    bio:
+      - "Maya Raisha is an up-and-coming jazz and soul singer-keyboardist with a powerful voice that's sure to make you groove and sway."
+      - "She has a passion for equity and raising her voice for a better future for all."

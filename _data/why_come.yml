@@ -1,0 +1,17 @@
+# _data/why_come.yml
+# Edit the paragraphs and images in this section here.
+
+heading: "Why come for Labour Day?"
+
+images:
+  - url: "https://github.com/workersmakepossible/labourday/blob/main/assets/BW_DSC06030.jpg?raw=true"
+    float: right
+  - url: "https://github.com/workersmakepossible/labourday/blob/main/assets/BW_DSC06063%20(1).jpg?raw=true"
+    float: left
+
+paragraphs:
+  - "What's the most common response we hear in Singapore when we ask our friends how they are? Been really busy. So exhausted. Burnt out. Fell sick again. Work's been stressful."
+  - "We try so hard to keep up - we make to-do lists, work through lunch, stay up later, wake up earlier, take on one more side hustle to keep up with rising costs. But we can't keep up, can we? We fall behind on chores, we snap at our loved ones, stop doing the things we enjoy, and spend money on cabs we can't afford because we just. don't. have. time. We desperately need a break, but there are no safety nets to protect those who can't go out to work. We get sicker, poorer and lonelier, while our sweat, blood and tears make our bosses richer and more powerful."
+  - "We work some of the longest hours in the world, and are one of the most sleep-deprived countries globally. Our bosses expect us to reply to work texts late at night, to cover extra shifts because they're \"under-staffed\", and to work from home even when we are sick. Meanwhile, our wages don't go up, we pay through our noses for housing and healthcare, and more of us are realising that no matter how hard we work, we can never afford to retire."
+  - "From doctors to domestic workers, from students to stay-at-home caregivers, most of us are pushing ourselves to survive in a culture that asks too much of us and makes us feel like we can never be good enough. Some of us turn to gig work to take back some flexibility and freedom, but with falling wages, we are back at square one - forced to take on more jobs, more risks, more stress. And at what cost? Overwork damages our bodies, our minds, our relationships, and steals our lives from us. We are squeezed harder and harder, and many of us are choking."
+  - "We have been struggling to survive in this system, but together, we can struggle to change it. On 1st May, gather with us at Hong Lim Park for Labour Day 2024 to roar - we want our lives back. Come and hear how workers, parents and students in Singapore are fighting for their safety, their health, their families and their futures, and join in the fight. Learn about the victories that ordinary people in Singapore's history have won for all of us, when they dared to come together and fight back."
