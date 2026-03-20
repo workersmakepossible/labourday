@@ -193,10 +193,18 @@ a:hover { color: #37375E; text-decoration: none; }
 /* ─── MOBILE FIXES ────────────────────────────────────────── */
 @media (max-width: 994px) {
 
-  /* Prevent desktop fixed-position elements leaking into mobile */
+  /* Fully hide ALL desktop header elements so they never render on mobile */
   .logo, .title, .navbanner, .titlebanner {
+    display: none !important;
     position: static !important;
     transform: none !important;
+    height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  /* Also nuke the h1 wrapper div that holds the desktop logo button */
+  .desktop-display > .container.h1 {
+    display: none !important;
   }
 
   /* All images stay within their container */
