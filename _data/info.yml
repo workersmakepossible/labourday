@@ -7,9 +7,9 @@ booklet:
   heading: "Programme Materials"
   subheading: "Download the programme materials here!"
   # status: "The chant sheet has not been released. Come back later!"
-  status: "Link to campaign paper below; chant sheet and programme booklet to be released shortly."
+  status: "<a href=\"https://tinyurl.com/ld26paper\"><u>Link to campaign paper</u></a><br><br>The chant sheet and programme booklet will be released shortly."
   # Uncomment and fill in when files are ready:
-  booklet_url: "https://tinyurl.com/ld26paper"
+  #booklet_url: ""
   # chant_url: "/assets/chant_sheet.pdf"
 
 # ─── GETTING THERE ────────────────────────────────────────────
