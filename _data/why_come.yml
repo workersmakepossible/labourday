@@ -4,16 +4,16 @@
 heading: "Why come for Labour Day?"
 
 images:
-  - url: "https://github.com/workersmakepossible/labourday/blob/main/assets/LD_asset%20(1).png?raw=true"
+  - url: "https://github.com/workersmakepossible/labourday/blob/main/assets/WhyCome_Asset%20(4).png?raw=true"
     float: right
     after_para: 1
-  - url: "https://github.com/workersmakepossible/labourday/blob/main/assets/LD_asset%20(2).png?raw=true"
+  - url: "https://github.com/workersmakepossible/labourday/blob/main/assets/WhyCome_Asset%20(3).png?raw=true"
     float: left
     after_para: 6
-  - url: "https://github.com/workersmakepossible/labourday/blob/main/assets/LD_asset%20(3).png?raw=true"
+  - url: "https://github.com/workersmakepossible/labourday/blob/main/assets/WhyCome_Asset%20(2).png?raw=true"
     float: right
     after_para: 10
-  - url: "https://github.com/workersmakepossible/labourday/blob/main/assets/LD_asset%20(4).png?raw=true"
+  - url: "https://github.com/workersmakepossible/labourday/blob/main/assets/WhyCome_Asset%20(1).png?raw=true"
     float: left
     after_para: 13
     
