@@ -4,10 +4,10 @@
 schedule:
   - time: "3.00pm"
     label: "Community Booths Open!"
-    description: "Visit the community booths to engage with these civil society groups!"
+    description: "Visit the community booths to engage with civil society groups and interactive elements/activities"
   - time: "5.00pm"
-    label: "Live Speeches and Performances"
-    description: "Electrifying speeches by workers and powerful performances by local musicians!"
+    label: "Live Speeches, Performances, Collective Formation!"
+    description: "Electrifying speeches by workers and powerful performances by local musicians, ending with collective formation"
 
 booths:
   - name: "Financial Aid Friends"
