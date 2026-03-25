@@ -145,7 +145,7 @@ layout: default
             <img class="img-responsive" src="{{ imgs[3].url }}"
               style="float:left; width:38%; margin-right:20px; margin-bottom:10px;">
           {% endif %}
-          <p>{{ para }}</p>
+          <p>{{ para | markdownify }}</p>
         {% endfor %}
         <div style="clear:both;"></div>
         <img class="img-responsive" src="{{ site.banner_url }}" style="width:100%;">
@@ -180,7 +180,7 @@ layout: default
             <a href="{{ booth.url }}" class="boothlink mb-1">{{ booth.name }}</a>
             <img src="{{ booth.image }}" style="width:100%; margin-top:20px; margin-bottom:20px;">
             {% for para in booth.description %}
-            <p>{{ para }}</p>
+            <p>{{ para | markdownify }}</p>
             {% endfor %}
           </ul>
           {% endfor %}
