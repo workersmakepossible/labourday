@@ -128,14 +128,26 @@ layout: default
         {% for para in paras %}
           {% if forloop.index == 1 %}
             <img class="img-responsive" src="{{ imgs[0].url }}"
-              style="float:right; width:40%; margin-left:10px; margin-bottom:10px">
+              style="float:right; width:38%; margin-left:20px; margin-bottom:10px;">
           {% endif %}
-          {% if forloop.index == 3 %}
+          {% if forloop.index == 6 %}
+            <div style="clear:both;"></div>
             <img class="img-responsive" src="{{ imgs[1].url }}"
-              style="float:left; width:40%; margin-right:20px; margin-bottom:5px">
+              style="float:left; width:38%; margin-right:20px; margin-bottom:10px;">
+          {% endif %}
+          {% if forloop.index == 10 %}
+            <div style="clear:both;"></div>
+            <img class="img-responsive" src="{{ imgs[2].url }}"
+              style="float:right; width:38%; margin-left:20px; margin-bottom:10px;">
+          {% endif %}
+          {% if forloop.index == 13 %}
+            <div style="clear:both;"></div>
+            <img class="img-responsive" src="{{ imgs[3].url }}"
+              style="float:left; width:38%; margin-right:20px; margin-bottom:10px;">
           {% endif %}
           <p>{{ para }}</p>
         {% endfor %}
+        <div style="clear:both;"></div>
         <img class="img-responsive" src="{{ site.banner_url }}" style="width:100%;">
       </div>
     </div>
@@ -363,8 +375,21 @@ layout: default
     <div class="h2 pt-3" style="color:{{ site.colors.primary }}; font-weight:bolder;">
       {{ site.data.why_come.heading }}
     </div>
+    {% assign imgs = site.data.why_come.images %}
     {% for para in site.data.why_come.paragraphs %}
-    <p>{{ para }}</p>
+      {% if forloop.index == 1 %}
+        <img src="{{ imgs[0].url }}" style="width:100%; margin-bottom:12px;">
+      {% endif %}
+      {% if forloop.index == 6 %}
+        <img src="{{ imgs[1].url }}" style="width:100%; margin-bottom:12px;">
+      {% endif %}
+      {% if forloop.index == 10 %}
+        <img src="{{ imgs[2].url }}" style="width:100%; margin-bottom:12px;">
+      {% endif %}
+      {% if forloop.index == 13 %}
+        <img src="{{ imgs[3].url }}" style="width:100%; margin-bottom:12px;">
+      {% endif %}
+      <p>{{ para }}</p>
     {% endfor %}
   </div>
 
